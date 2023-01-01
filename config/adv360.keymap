@@ -43,7 +43,7 @@
           &kp TAB      &kp Q           &kp W     &kp F      &kp P      &kp B            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS      &kp J      &kp L          &kp U      &kp Y  &kp COLON         &kp FSLH
           &kp ESC      &kp A           &kp R     &kp S      &kp T      &kp G                  &kp LEFT_BRACE             &kp ESCAPE   &kp LALT                             &kp RALT  &kp RCTRL  &kp RIGHT_BRACE         &kp M         &kp N      &kp E    &kp I          &kp O  &kp SINGLE_QUOTE
         &kp LSHFT      &kp Z           &kp X     &kp C      &kp D      &kp V                           &none                  &none   &kp HOME      &none          &none  &kp PG_UP      &none            &none         &kp K         &kp H  &kp COMMA  &kp DOT  &kp SEMICOLON         &kp RSHFT
- &kp K_PLAY_PAUSE  &kp GRAVE  &kp UNDERSCORE  &kp LEFT  &kp RIGHT  &kp SPACE                         &kp DEL                &kp END  &kp PG_DN  &kp ENTER  &kp BACKSPACE     &kp UP   &kp DOWN       &kp K_MUTE  &kp K_VOL_DN  &kp K_VOL_UP
+ &kp C_PLAY_PAUSE  &kp GRAVE  &kp UNDERSCORE  &kp LEFT  &kp RIGHT  &kp SPACE                         &kp DEL                &kp END  &kp PG_DN  &kp ENTER  &kp BACKSPACE     &kp UP   &kp DOWN       &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP
             >;
         };
 
