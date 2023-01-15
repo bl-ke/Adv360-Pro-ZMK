@@ -13,8 +13,8 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
 
@@ -39,31 +39,31 @@
 
         default_layer {
             bindings = <
-      &none   &none   &none   &none   &none                &none              &bl BL_TOG       &none          &none     &none                     &none              &none            &none        &none
-      &none   &kp Q   &kp W   &kp F   &kp P                &kp B                   &none       &none          &kp J     &kp L                     &kp U              &kp Y            &kp Z        &none
- &caps_word   &kp A   &kp R   &kp S   &kp T                &kp G            &macro_paste  &kp C_PLAY     &kp C_MUTE                                      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &macro_copy   &kp M   &kp N   &kp E   &kp I   &kp O  &caps_word
-      &none   &mo 1   &kp X   &kp C   &kp D                &kp V                   &none       &none     &kp C_PREV     &none                     &none         &kp C_NEXT            &none        &none   &kp K   &kp H   &none   &none   &mo 2       &none
-      &none  &tog 1   &none   &none   &none  &mt LEFT_ALT RETURN               &kp SPACE       &none  &kp ALT_ERASE  &kp BSPC  &mt RIGHT_CONTROL ESCAPE              &none            &none        &none  &tog 2   &none
+         &kp GRAVE       &none  &kp N1     &kp N2     &kp N3               &kp N4              &bl BL_TOG           &kp LPAR            &kp RPAR  &kp LEFT_BRACE                  &kp RBRC   &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp TILDE
+  &kp SINGLE_QUOTE       &kp Q   &kp W      &kp F      &kp P                &kp B              &macro_cut  &macro_select_all               &kp J           &kp L                     &kp U              &kp Y              &kp Z     &kp FSLH
+ &kp DOUBLE_QUOTES       &kp A   &kp R      &kp S      &kp T                &kp G            &macro_paste         &kp C_PLAY          &kp C_MUTE                                            &kp C_VOLUME_DOWN    &kp C_VOLUME_UP  &macro_copy   &kp M     &kp N      &kp E        &kp I       &kp O       &kp PIPE
+       &kp PAGE_UP  &caps_word   &kp X      &kp C      &kp D                &kp V                   &none              &none          &kp C_PREV           &none                     &none         &kp C_NEXT              &none        &none   &kp K     &kp H  &kp COLON  &kp PERCENT  &caps_word  &kp PAGE_DOWN
+           &kp END       &mo 1   &none  &kp UNDER  &kp EQUAL  &mt LEFT_ALT RETURN               &kp SPACE            &kp TAB  &macro_word_delete        &kp BSPC  &mt RIGHT_CONTROL ESCAPE           &kp SEMI          &kp COMMA   &kp PERIOD   &mo 2  &kp HOME
             >;
         };
 
         layer_keypad {
             bindings = <
- &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4    &kp N5             &trans      &mo 3     &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY   &kp MINUS
-   &kp TAB      &kp Q     &kp W     &kp E      &kp R     &kp T              &none      &none      &kp Y   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS    &kp BSLH
-   &kp ESC      &kp A     &kp S     &kp D      &kp F     &kp G              &none  &kp LCTRL   &kp LALT                                 &kp LGUI        &kp RCTRL       &none     &kp H  &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp KP_PLUS    &kp SQT
- &kp LSHFT      &kp Z     &kp X     &kp C      &kp V     &kp B              &none      &none   &kp HOME       &none         &none      &kp PG_UP            &none       &none     &kp N  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_ENTER  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT  &kp BSPC            &kp DEL    &kp END  &kp PG_DN   &kp ENTER     &kp KP_N0         &kp UP         &kp DOWN  &kp KP_DOT  &kp RBKT      &mo 2
+  &none   &none   &none   &none   &none   &none             &none  &kp LPAR    &kp RPAR  &kp MINUS  &kp PLUS  &kp FSLH  &kp STAR   &none
+  &none   &none   &none   &none   &none   &none             &none     &none  &kp DOLLAR     &kp N7    &kp N8    &kp N9  &kp PLUS   &none
+  &none   &none   &none   &none   &none   &none             &none    &trans      &trans                         &trans    &trans   &none  &kp PERIOD  &kp N4  &kp N5  &kp N6  &kp ENTER   &none
+  &none   &none   &none   &none   &none   &none             &none     &none      &trans      &none     &none    &trans     &none   &none      &kp N0  &kp N1  &kp N2  &kp N3      &none   &none
+  &none   &none   &none   &none   &none  &trans            &trans    &trans      &trans     &trans    &trans     &none     &none   &none       &none   &none
             >;
         };
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
- &trans  &trans  &trans  &trans  &trans  &trans             &none   &none  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans                   &trans   &trans    &none  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans             &none   &none  &trans   &none   &none   &trans    &none    &none  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans   &trans   &trans   &trans  &trans  &trans
+  &none   &none          &none      &none             &none   &none             &none   &none   &none   &none  &trans   &none   &none   &none
+  &none   &none      &kp CARET   &kp PIPE          &kp AMPS   &none             &none   &none  &trans  &trans  &trans  &trans  &trans  &trans
+  &none   &none      &kp TILDE  &kp EQUAL         &kp ASTRK   &none             &none  &trans  &trans                  &trans  &trans   &none  &trans  &trans  &trans  &trans  &trans  &trans
+  &none   &none  &kp LESS_THAN  &kp MINUS  &kp GREATER_THAN   &none             &none   &none  &trans   &none   &none  &trans   &none   &none  &trans  &trans  &trans  &trans  &trans  &trans
+  &none  &trans         &trans     &trans            &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
