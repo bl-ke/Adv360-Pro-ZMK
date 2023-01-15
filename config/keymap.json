@@ -16,11 +16,11 @@
              "&kp PAGE_UP", "&caps_word",     "&kp X",     "&kp C",     "&kp D",            "&kp V",                "&none",      "&none",        "&kp C_PREV",          "&none",           "&none",        "&kp C_NEXT",             "&none",      "&none",  "&kp K",    "&kp H", "&kp COLON", "&kp PERCENT", "&caps_word", "&kp PAGE_DOWN",
                  "&kp END",      "&mo 1", "&kp MINUS", "&kp UNDER", "&kp EQUAL", "&mt LEFT_ALT ESC",            "&kp SPACE",    "&kp TAB", "&kp RC(BACKSPACE)",       "&kp BSPC", "&mt RCTRL ENTER",          "&kp SEMI",         "&kp COMMA", "&kp PERIOD",  "&mo 2", "&kp HOME"
     ], [
-        "&none",  "&none",  "&none",  "&none",  "&none",  "&none",            "&none", "&kp LPAR",   "&kp RPAR", "&kp MINUS", "&kp PLUS", "&kp FSLH", "&kp STAR",  "&none",
-        "&none",  "&none",  "&none",  "&none",  "&none",  "&none",            "&none",    "&none", "&kp DOLLAR",    "&kp N7",   "&kp N8",   "&kp N9", "&kp PLUS",  "&none",
-        "&none",  "&none",  "&none",  "&none",  "&none",  "&none",            "&none",   "&trans",     "&trans",                            "&trans",   "&trans",  "&none", "&kp PERIOD", "&kp N4", "&kp N5", "&kp N6", "&kp ENTER",  "&none",
-        "&none",  "&none",  "&none",  "&none",  "&none",  "&none",            "&none",    "&none",     "&trans",     "&none",    "&none",   "&trans",    "&none",  "&none",     "&kp N0", "&kp N1", "&kp N2", "&kp N3",     "&none",  "&none",
-        "&none",  "&none",  "&none",  "&none",  "&none", "&trans",           "&trans",   "&trans",     "&trans",    "&trans",   "&trans", "&kp LEFT",   "&kp UP",  "&none",  "&kp RIGHT",  "&none"
+        "&none",  "&none",  "&none",  "&none",  "&none",  "&none",            "&none", "&kp LPAR",   "&kp RPAR", "&kp MINUS", "&kp PLUS", "&kp FSLH", "&kp STAR",    "&none",
+        "&none",  "&none",  "&none",  "&none",  "&none",  "&none",            "&none",    "&none", "&kp DOLLAR",    "&kp N7",   "&kp N8",   "&kp N9", "&kp PLUS",    "&none",
+        "&none",  "&none",  "&none",  "&none",  "&none",  "&none",            "&none",   "&trans",     "&trans",                            "&trans",   "&trans",    "&none", "&kp PERIOD", "&kp N4", "&kp N5", "&kp N6", "&kp ENTER",  "&none",
+        "&none",  "&none",  "&none",  "&none",  "&none",  "&none",            "&none",    "&none",     "&trans",     "&none",    "&none",   "&trans",    "&none",    "&none",     "&kp N0", "&kp N1", "&kp N2", "&kp N3",     "&none",  "&none",
+        "&none",  "&none",  "&none",  "&none",  "&none", "&trans",           "&trans",   "&trans",     "&trans",    "&trans",   "&trans", "&kp LEFT",   "&kp UP", "&kp DOWN",  "&kp RIGHT",  "&none"
     ], [
         "&none",  "&none",         "&none",     "&none",            "&none",  "&none",            "&none",  "&none",  "&none",  "&none", "&trans",  "&none",  "&none",  "&none",
         "&none",  "&none",     "&kp CARET",  "&kp PIPE",         "&kp AMPS",  "&none",            "&none",  "&none", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
