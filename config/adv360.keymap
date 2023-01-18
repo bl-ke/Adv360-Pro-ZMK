@@ -15,6 +15,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/backlight.h>
+#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
 
@@ -39,11 +40,11 @@
 
         default_layer {
             bindings = <
-         &kp GRAVE  &kp N0     &kp N1     &kp N2     &kp N3     &kp N4               &kp LC(X)    &kp LPAR           &kp RPAR   &kp LEFT_BRACE       &kp RBRC   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
-  &kp SINGLE_QUOTE   &kp Q      &kp W      &kp F      &kp P      &kp B               &kp LC(V)   &kp RC(A)              &kp J            &kp L          &kp U              &kp Y           &kp SEMI    &macro_home
- &kp DOUBLE_QUOTES   &kp A      &kp R      &kp S      &kp T      &kp G               &kp LC(S)  &bl BL_TOG         &kp C_MUTE                                  &kp C_VOLUME_DOWN    &kp C_VOLUME_UP      &kp RC(C)   &kp M   &kp N      &kp E       &kp I      &kp O    &kp FSLH
-         &kp LSHFT   &kp Z      &kp X      &kp C      &kp D      &kp V                   &none       &none         &kp C_PREV            &none          &none         &kp C_NEXT              &none          &none   &kp K   &kp H  &kp COMMA  &kp PERIOD  &kp RIGHT  &caps_word
-     &kp LA(SPACE)   &mo 1  &kp UNDER  &kp MINUS  &kp EQUAL  &kp SPACE            &mt LALT ESC     &kp TAB  &kp RC(BACKSPACE)  &mt RCTRL ENTER  &kp BACKSPACE          &kp COLON           &kp PIPE   &kp QUESTION   &mo 2  &kp F5
+         &kp GRAVE  &kp N0     &kp N1     &kp N2     &kp N3         &kp N4             &kp LBKT    &kp RBKT       &kp EXCL         &kp AMPS  &kp CARET      &kp LESS_THAN           &kp GT  &kp BACKSLASH
+  &kp SINGLE_QUOTE   &kp Q      &kp W      &kp F      &kp P          &kp B             &kp LPAR    &kp RPAR          &kp J            &kp L      &kp U              &kp Y         &kp SEMI    &macro_home
+ &kp DOUBLE_QUOTES   &kp A      &kp R      &kp S      &kp T          &kp G             &kp LBRC  &bl BL_TOG     &kp C_MUTE                              &kp C_VOLUME_DOWN  &kp C_VOLUME_UP       &kp RBRC   &kp M   &kp N      &kp E       &kp I           &kp O  &kp FSLH
+         &kp LSHFT   &kp Z      &kp X      &kp C      &kp D          &kp V                &none       &none     &kp C_PREV            &none      &none         &kp C_NEXT            &none          &none   &kp K   &kp H  &kp COMMA  &kp PERIOD  &kt RIGHT_META    &kp AT
+     &kp LA(SPACE)   &mo 1  &kp UNDER  &kp MINUS  &kp EQUAL  &kp BACKSPACE            &kp SPACE     &kp TAB  &kp RIGHT_ALT  &mt RCTRL ENTER    &kp ESC          &kp COLON         &kp PIPE   &kp QUESTION   &mo 2  &kp F5
             >;
         };
 
