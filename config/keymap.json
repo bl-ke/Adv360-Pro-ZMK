@@ -10,11 +10,11 @@
   ],
   "layers": [
     [
-        "&none",  "&none",  "&none",  "&none",  "&none",     "&none",               "&none",   "&none",         "&none",     "&none",  "&none",     "&none",  "&none",  "&none",
-        "&none",  "&kp Y",  "&kp C",  "&kp L",  "&kp M",     "&kp K",               "&none",   "&none",         "&kp Z",     "&kp F",  "&kp U", "&kp COMMA", "&tog 3",  "&none",
-        "&none",  "&kp I",  "&kp S",  "&kp R",  "&kp T",     "&kp G",               "&none",   "&none",         "&none",                            "&none",  "&none",  "&none",  "&kp P",  "&kp N",    "&kp E",      "&kp A",  "&kp O",  "&none",
-        "&none",  "&kp Q",  "&kp V",  "&kp W",  "&kp D",     "&kp J",               "&none",   "&none",         "&none",     "&none",  "&none",     "&none",  "&none",  "&none",  "&kp B",  "&kp H", "&kp FSLH", "&kp PERIOD",  "&kp X",  "&none",
-        "&none",  "&none",  "&none",  "&none",  "&none", "&kp SPACE",           "&sk LSHFT", "&kp TAB", "&kp BACKSPACE", "&kt RCTRL", "&tog 1",     "&none",  "&none",  "&none",  "&none",  "&none"
+        "&none",  "&none",  "&none",  "&none",  "&none",     "&none",               "&none",   "&none",         "&none",     "&none",  "&none",     "&none",    "&none",  "&none",
+        "&none",  "&kp Y",  "&kp C",  "&kp L",  "&kp M",     "&kp K",               "&none",   "&none",         "&kp Z",     "&kp F",  "&kp U", "&kp COMMA", "&macro_a",  "&none",
+        "&none",  "&kp I",  "&kp S",  "&kp R",  "&kp T",     "&kp G",               "&none",   "&none",         "&none",                            "&none",    "&none",  "&none",  "&kp P",  "&kp N",    "&kp E",      "&kp A",  "&kp O",  "&none",
+        "&none",  "&kp Q",  "&kp V",  "&kp W",  "&kp D",     "&kp J",               "&none",   "&none",         "&none",     "&none",  "&none",     "&none",    "&none",  "&none",  "&kp B",  "&kp H", "&kp FSLH", "&kp PERIOD",  "&kp X",  "&none",
+        "&none",  "&none",  "&none",  "&none",  "&none", "&kp SPACE",           "&sk LSHFT", "&kp TAB", "&kp BACKSPACE", "&kt RCTRL", "&tog 1",     "&none",    "&none",  "&none",  "&none",  "&none"
     ], [
         "&none",     "&none",     "&none",            "&none",             "&none",       "&none",               "&none",  "&none",     "&none",    "&none",    "&none",    "&none",         "&none",  "&none",
         "&none",   "&kp ESC",    "&kp AT",        "&kp POUND",        "&kp DOLLAR", "&kp PERCENT",               "&none",  "&none", "&kp CARET", "&kp AMPS", "&kp STAR", "&kp SEMI", "&kp BACKSPACE",  "&none",
