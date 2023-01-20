@@ -14,7 +14,6 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 
 / {
   behaviors {
@@ -37,41 +36,41 @@
 
         default_layer {
             bindings = <
-  &none   &none   &none   &none   &none   &none                &none                                                                       &none   &none   &none     &none       &none            &none   &none
-  &none   &kp Y   &kp C   &kp L   &kp M   &kp K                &none                                                                       &none   &kp Z   &kp F     &kp U   &kp COMMA            &kp X   &none
-  &none   &kp I   &kp S   &kp R   &kp T   &kp G                &none      &none  &kp C_MUTE                   &kp C_VOL_DN  &kp C_VOL_UP   &none   &kp P   &kp N     &kp E       &kp A            &kp O   &none
-  &none   &kp Q   &kp V   &kp W   &kp D   &kp J                &none      &none       &none   &none   &none          &none         &none   &none   &kp B   &kp H  &kp FSLH  &kp PERIOD  &macro_esc_tog3   &none
-  &none   &none   &none   &none   &none                    &kp SPACE  &sk LSHFT     &kp TAB                  &kp BACKSPACE     &kt RCTRL   &to 1           &none     &none       &none            &none   &none
+  &none   &none   &none   &none   &none   &none                &none                                                                    &none   &none   &none     &none       &none            &none   &none
+  &none   &kp Y   &kp C   &kp L   &kp M   &kp K                &none                                                                    &none   &kp Z   &kp F     &kp U   &kp COMMA  &macro_esc_tog3   &none
+  &none   &kp I   &kp S   &kp R   &kp T   &kp G                &none  &kp RMETA  &kp C_MUTE                   &kp C_VOL_DN   &kp RALT   &none   &kp P   &kp N     &kp E       &kp A            &kp O   &none
+  &none   &kp Q   &kp V   &kp W   &kp D   &kp J                &none      &none       &none   &none   &none   &kp C_VOL_UP      &none   &none   &kp B   &kp H  &kp FSLH  &kp PERIOD            &kp X   &none
+  &none   &none   &none   &none   &none                    &kp SPACE  &sk LSHFT     &kp TAB                  &kp BACKSPACE  &sk RCTRL   &to 1           &none     &none       &none            &none   &none
             >;
         };
 
         layer_symbols {
             bindings = <
-  &none      &none      &none             &none              &none        &none            &none                                                        &none             &none     &none     &none     &none            &none   &none
-  &none    &kp ESC     &kp AT         &kp POUND         &kp DOLLAR  &kp PERCENT            &none                                                        &none         &kp CARET  &kp AMPS  &kp STAR  &kp SEMI        &kp GRAVE   &none
-  &none    &kp TAB  &kp EQUAL  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES    &kp MINUS            &none     &trans  &trans                  &trans    &trans   &none         &kp COLON  &kp LBRC  &kp RBRC  &kp PIPE          &kp RET   &none
-  &none  &kp TILDE   &kp EXCL            &kp LT          &kp UNDER       &kp GT            &none      &none   &none   &none   &none   &none     &none   &none  &kp LEFT_BRACKET  &kp LPAR  &kp RPAR  &kp RBKT  &macro_esc_tog3   &none
-  &none      &none      &none             &none              &none                         &to 0  &kp LSHFT  &trans                  &trans  &kp LALT   &to 2                       &none     &none     &none            &none   &none
+  &none      &none      &none             &none              &none        &none            &none                                                   &none             &none     &none     &none     &none            &none   &none
+  &none    &kp ESC     &kp AT         &kp POUND         &kp DOLLAR  &kp PERCENT            &none                                                   &none         &kp CARET  &kp AMPS  &kp STAR  &kp SEMI  &macro_esc_tog3   &none
+  &none    &kp TAB  &kp EQUAL  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES    &kp MINUS            &none  &trans  &trans                  &trans  &trans   &none         &kp COLON  &kp LBRC  &kp RBRC  &kp PIPE          &kp RET   &none
+  &none  &kp TILDE   &kp EXCL            &kp LT          &kp UNDER       &kp GT            &none   &none   &none   &none   &none   &none   &none   &none  &kp LEFT_BRACKET  &kp LPAR  &kp RPAR  &kp RBKT        &kp GRAVE   &none
+  &none      &none      &none             &none              &none                         &to 0  &trans  &trans                  &trans  &trans   &to 2                       &none     &none     &none            &none   &none
             >;
         };
 
         layer_numeric {
             bindings = <
-  &none    &none   &none   &none       &none     &none            &none                                                     &none      &none         &none  &trans   &none            &none   &none
-  &none  &kp ESC   &none   &none    &kp STAR     &none            &none                                                     &none  &kp MINUS  &kp NUMBER_7  &kp N8  &kp N9            &none   &none
-  &none  &kp TAB   &none   &none  &kp PERIOD  &kp PLUS            &none  &trans  &trans                  &trans    &trans   &none  &kp EQUAL        &kp N4  &kp N5  &kp N6          &kp RET   &none
-  &none    &none   &none   &none    &kp FSLH     &none            &none   &none  &trans   &none   &none  &trans     &none   &none     &kp N0        &kp N1  &kp N2  &kp N3  &macro_esc_tog3   &none
-  &none    &none   &none   &none       &none                      &to 0   &none  &trans                  &trans  &kp RALT   &to 1                    &none   &none   &none            &none   &none
+  &none    &none   &none   &none       &none     &none            &none                                                   &none      &none         &none  &trans   &none            &none   &none
+  &none  &kp ESC   &none   &none    &kp STAR     &none            &none                                                   &none  &kp MINUS  &kp NUMBER_7  &kp N8  &kp N9  &macro_esc_tog3   &none
+  &none  &kp TAB   &none   &none  &kp PERIOD  &kp PLUS            &none  &trans  &trans                  &trans  &trans   &none  &kp EQUAL        &kp N4  &kp N5  &kp N6          &kp RET   &none
+  &none    &none   &none   &none    &kp FSLH     &none            &none   &none  &trans   &none   &none  &trans   &none   &none     &kp N0        &kp N1  &kp N2  &kp N3            &none   &none
+  &none    &none   &none   &none       &none                      &to 0  &trans  &trans                  &trans  &trans   &to 1                    &none   &none   &none            &none   &none
             >;
         };
 
         layer_navigation {
             bindings = <
-       &none    &none   &none   &none   &none      &none            &none                                                        &none     &none     &none    &none      &none      &none        &none
-       &none  &kp ESC   &none   &none   &kp Y      &none            &none                                                        &none     &none     &kp B    &kp W      &none      &none        &none
-       &none  &kp TAB   &none   &none   &kp V  &kp LC(V)            &none     &trans  &trans                  &trans    &trans   &none  &kp LEFT  &kp DOWN   &kp UP  &kp RIGHT  &kp ENTER        &none
-       &none    &none   &none   &none   &kp D      &none            &none      &none  &trans   &none   &none  &trans     &none   &none     &none  &kp HOME  &kp END      &none      &none        &none
- &bootloader    &none   &none   &none   &none                       &to 0  &kp LSHFT  &trans                  &trans  &kp RALT   &to 1               &none    &none      &none      &none  &bootloader
+       &none    &none   &none   &none   &none      &none            &none                                                   &none     &none     &none    &none      &none      &none        &none
+       &none  &kp ESC   &none   &none   &kp Y      &none            &none                                                   &none     &none     &kp B    &kp W      &none      &to 0        &none
+       &none  &kp TAB   &none   &none   &kp V  &kp LC(V)            &none  &trans  &trans                  &trans  &trans   &none  &kp LEFT  &kp DOWN   &kp UP  &kp RIGHT  &kp ENTER        &none
+       &none    &none   &none   &none   &kp D      &none            &none   &none  &trans   &none   &none  &trans   &none   &none     &none  &kp HOME  &kp END      &none      &none        &none
+ &bootloader    &none   &none   &none   &none                       &to 0  &trans  &trans                  &trans  &trans   &to 1               &none    &none      &none      &none  &bootloader
             >;
         };
 
