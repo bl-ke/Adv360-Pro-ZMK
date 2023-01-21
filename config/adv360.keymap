@@ -29,13 +29,11 @@
         bindings = <&kp>, <&kp>;
     };
     tri: tri_tap {
-        compatible = "zmk,behavior-hold-tap";
+        compatible = "zmk,behavior-tap-dance";
         label = "tri_tap";
-        #binding-cells = <3>;
+        #binding-cells = <0>;
         tapping-term-ms = <200>;
-        quick_tap_ms = <175>;
-        flavor = "tap-preferred";
-        bindings = <&kp>, <&kp>, <&kp>;
+        bindings = <&kp TILDE>, <&kp TILDE &kp FSLH>, <&kp TILDE &kp FSLH &kp DOT>;
     };
   };
 
@@ -48,7 +46,7 @@
   &none        &none   &none   &none   &none   &none                       &none                                                                                           &none   &none   &none      &none      &none            &none   &none
   &none        &kp J   &kp C   &kp Y   &kp F   &kp K                       &none                                                                                           &none   &kp Z   &kp L  &kp COMMA      &kp U            &kp Q   &none
   &none        &kp R   &kp S   &kp T   &kp H   &kp D                       &none                &none  &kp C_MUTE                  &kp C_VOL_DN     &kp C_VOL_UP           &none   &kp M   &kp N      &kp A      &kp I            &kp O   &none
-  &none  &tri TILDE FSLH DOT &kp V   &kp G   &kp P   &kp B                       &none                &none       &none   &none   &none         &none            &none           &none   &kp X   &kp W    &kp DOT  &kp MINUS  &macro_esc_tog3   &none
+  &none        &tri    &kp V   &kp G   &kp P   &kp B                       &none                &none       &none   &none   &none         &none            &none           &none   &kp X   &kp W    &kp DOT  &kp MINUS  &macro_esc_tog3   &none
   &none        &none   &none   &none   &none                    &mt LSHIFT SPACE  &mt LEFT_META ENTER     &kp TAB                         &to 1  &mt RIGHT_ALT E  &mt RCTRL BSPC           &none      &none      &none            &none   &none
             >;
         };
