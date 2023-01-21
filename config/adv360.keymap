@@ -57,7 +57,7 @@
             bindings = <
   &none      &none             &none              &none      &none        &none             &none                                                   &none             &none     &none     &none     &none            &none   &none
   &none      &none            &kp AT          &kp POUND  &kp EQUAL  &kp PERCENT             &none                                                   &none         &kp CARET    &kp LT    &kp GT  &kp PIPE        &kp QMARK   &none
-  &none  &kp GRAVE  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp UNDER    &kp MINUS             &none  &trans  &trans                  &trans  &trans   &none         &kp COLON  &kp LBRC  &kp RBRC  &kp SEMI          &kp none   &none
+  &none  &kp GRAVE  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp UNDER    &kp MINUS             &none  &trans  &trans                  &trans  &trans   &none         &kp COLON  &kp LBRC  &kp RBRC  &kp SEMI          &none   &none
   &none  &kp TILDE          &kp EXCL           &kp AMPS  &kp UNDER     &kp STAR             &none   &none   &none   &none   &none   &none   &none   &none  &kp LEFT_BRACKET  &kp LPAR  &kp RPAR  &kp RBKT  &macro_esc_tog3   &none
   &none      &none             &none              &none      &none                         &trans  &trans   &to 0                   &to 2  &trans  &trans                       &none     &none     &none            &none   &none
             >;
@@ -67,7 +67,7 @@
             bindings = <
   &none   &none   &none   &none       &none     &none             &none                                                   &none      &none         &none  &trans   &none            &none   &none
   &none   &none   &none   &none    &kp STAR     &none             &none                                                   &none      &none  &kp NUMBER_7  &kp N8  &kp N9        &kp EQUAL   &none
-  &none   &none   &none   &none  &kp PERIOD  &kp PLUS             &none  &trans  &trans                  &trans  &trans   &none  &kp MINUS        &kp N4  &kp N5  &kp N6          &kp none   &none
+  &none   &none   &none   &none  &kp PERIOD  &kp PLUS             &none  &trans  &trans                  &trans  &trans   &none  &kp MINUS        &kp N4  &kp N5  &kp N6          &none   &none
   &none   &none   &none   &none    &kp FSLH     &none             &none   &none  &trans   &none   &none  &trans   &none   &none     &kp N0        &kp N1  &kp N2  &kp N3  &macro_esc_tog3   &none
   &none   &none   &none   &none       &none                      &trans  &trans   &to 0                   &to 1  &trans  &trans                    &none   &none   &none            &none   &none
             >;
@@ -77,7 +77,7 @@
             bindings = <
        &none   &none   &none   &none   &none      &none             &bootloader                                                  &bootloader     &none     &none   &none      &none      &none        &none
        &none   &none   &none   &none   &kp Y      &none             &none                                                   &none     &none     &kp B   &kp W      &none      &none        &none
-       &none   &none   &none   &none   &kp V  &kp LC(V)             &none  &trans  &trans                  &trans  &trans   &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp none        &none
+       &none   &none   &none   &none   &kp V  &kp LC(V)             &none  &trans  &trans                  &trans  &trans   &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none        &none
        &none   &none   &none   &none   &kp D      &none             &none   &none  &trans   &none   &none  &trans   &none   &none  &kp HOME     &none   &none    &kp END      &to 0        &none
  &none   &none   &none   &none   &none                       &trans  &trans   &to 0                   &to 1  &trans  &trans               &none   &none      &none      &none  &none 
             >;
