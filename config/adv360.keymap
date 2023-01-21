@@ -19,6 +19,25 @@
   behaviors {
     #include "macros.dtsi"
 
+  macros {
+        tri_2: tri_2 {
+            label = "tri_2";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp TILDE &kp FSLH>
+                ;
+        };
+        tri_3: tri_3 {
+            label = "tri_3";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp TILDE &kp FSLH &kp DOT>
+                ;
+        };
+    };
+
     hm: homerow_mods {
         compatible = "zmk,behavior-hold-tap";
         label = "HOMEROW_MODS";
@@ -33,7 +52,7 @@
         label = "tri_tap";
         #binding-cells = <0>;
         tapping-term-ms = <200>;
-        bindings = <&kp TILDE>, <&kp TILDE FSLH>, <&kp TILDE FSLH DOT>;
+        bindings = <&kp TILDE>, <&tri_2>, <&tri_3>;
     };
   };
 
