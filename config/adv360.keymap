@@ -33,7 +33,7 @@
         label = "tri_tap";
         #binding-cells = <0>;
         tapping-term-ms = <200>;
-        bindings = <&kp TILDE>, <&kp TILDE &kp FSLH>, <&kp TILDE &kp FSLH &kp DOT>;
+        bindings = <&kp TILDE>, <&kp TILDE FSLH>, <&kp TILDE FSLH DOT>;
     };
   };
 
