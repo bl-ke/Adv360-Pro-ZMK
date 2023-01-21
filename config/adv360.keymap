@@ -28,6 +28,15 @@
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
+    tri: tri_tap {
+        compatible = "zmk,behavior-hold-tap";
+        label = "tri_tap";
+        #binding-cells = <3>;
+        tapping-term-ms = <200>;
+        quick_tap_ms = <175>;
+        flavor = "tap-preferred";
+        bindings = <&kp>, <&kp>, <&kp>;
+    };
   };
 
     keymap {
@@ -39,7 +48,7 @@
   &none        &none   &none   &none   &none   &none                       &none                                                                                           &none   &none   &none      &none      &none            &none   &none
   &none        &kp J   &kp C   &kp Y   &kp F   &kp K                       &none                                                                                           &none   &kp Z   &kp L  &kp COMMA      &kp U            &kp Q   &none
   &none        &kp R   &kp S   &kp T   &kp H   &kp D                       &none                &none  &kp C_MUTE                  &kp C_VOL_DN     &kp C_VOL_UP           &none   &kp M   &kp N      &kp A      &kp I            &kp O   &none
-  &none  &macro_home   &kp V   &kp G   &kp P   &kp B                       &none                &none       &none   &none   &none         &none            &none           &none   &kp X   &kp W    &kp DOT  &kp MINUS  &macro_esc_tog3   &none
+  &none  &tri TILDE FSLH DOT &kp V   &kp G   &kp P   &kp B                       &none                &none       &none   &none   &none         &none            &none           &none   &kp X   &kp W    &kp DOT  &kp MINUS  &macro_esc_tog3   &none
   &none        &none   &none   &none   &none                    &mt LSHIFT SPACE  &mt LEFT_META ENTER     &kp TAB                         &to 1  &mt RIGHT_ALT E  &mt RCTRL BSPC           &none      &none      &none            &none   &none
             >;
         };
@@ -48,7 +57,7 @@
             bindings = <
   &none      &none             &none              &none      &none        &none             &none                                                   &none             &none     &none     &none     &none            &none   &none
   &none      &none            &kp AT          &kp POUND  &kp EQUAL  &kp PERCENT             &none                                                   &none         &kp CARET    &kp LT    &kp GT  &kp PIPE        &kp QMARK   &none
-  &none  &kp GRAVE  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp UNDER    &kp MINUS             &none  &trans  &trans                  &trans  &trans   &none         &kp COLON  &kp LBRC  &kp RBRC  &kp SEMI          &kp RET   &none
+  &none  &kp GRAVE  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp UNDER    &kp MINUS             &none  &trans  &trans                  &trans  &trans   &none         &kp COLON  &kp LBRC  &kp RBRC  &kp SEMI          &kp none   &none
   &none  &kp TILDE          &kp EXCL           &kp AMPS  &kp UNDER     &kp STAR             &none   &none   &none   &none   &none   &none   &none   &none  &kp LEFT_BRACKET  &kp LPAR  &kp RPAR  &kp RBKT  &macro_esc_tog3   &none
   &none      &none             &none              &none      &none                         &trans  &trans   &to 0                   &to 2  &trans  &trans                       &none     &none     &none            &none   &none
             >;
@@ -58,7 +67,7 @@
             bindings = <
   &none   &none   &none   &none       &none     &none             &none                                                   &none      &none         &none  &trans   &none            &none   &none
   &none   &none   &none   &none    &kp STAR     &none             &none                                                   &none      &none  &kp NUMBER_7  &kp N8  &kp N9        &kp EQUAL   &none
-  &none   &none   &none   &none  &kp PERIOD  &kp PLUS             &none  &trans  &trans                  &trans  &trans   &none  &kp MINUS        &kp N4  &kp N5  &kp N6          &kp RET   &none
+  &none   &none   &none   &none  &kp PERIOD  &kp PLUS             &none  &trans  &trans                  &trans  &trans   &none  &kp MINUS        &kp N4  &kp N5  &kp N6          &kp none   &none
   &none   &none   &none   &none    &kp FSLH     &none             &none   &none  &trans   &none   &none  &trans   &none   &none     &kp N0        &kp N1  &kp N2  &kp N3  &macro_esc_tog3   &none
   &none   &none   &none   &none       &none                      &trans  &trans   &to 0                   &to 1  &trans  &trans                    &none   &none   &none            &none   &none
             >;
@@ -66,11 +75,11 @@
 
         layer_navigation {
             bindings = <
-       &none   &none   &none   &none   &none      &none             &none                                                   &none     &none     &none   &none      &none      &none        &none
+       &none   &none   &none   &none   &none      &none             &bootloader                                                  &bootloader     &none     &none   &none      &none      &none        &none
        &none   &none   &none   &none   &kp Y      &none             &none                                                   &none     &none     &kp B   &kp W      &none      &none        &none
-       &none   &none   &none   &none   &kp V  &kp LC(V)             &none  &trans  &trans                  &trans  &trans   &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp ENTER        &none
+       &none   &none   &none   &none   &kp V  &kp LC(V)             &none  &trans  &trans                  &trans  &trans   &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp none        &none
        &none   &none   &none   &none   &kp D      &none             &none   &none  &trans   &none   &none  &trans   &none   &none  &kp HOME     &none   &none    &kp END      &to 0        &none
- &bootloader   &none   &none   &none   &none                       &trans  &trans   &to 0                   &to 1  &trans  &trans               &none   &none      &none      &none  &bootloader
+ &none   &none   &none   &none   &none                       &trans  &trans   &to 0                   &to 1  &trans  &trans               &none   &none      &none      &none  &none 
             >;
         };
 
