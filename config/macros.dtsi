@@ -10,3 +10,9 @@ label = "macro_esc_tog3";
 #binding-cells = <0>;
 bindings = <&kp ESC &to 3>;
 };
+macro_qu: macro_qu{
+compatible = "zmk,behavior-macro";
+label = "macro_qu";
+#binding-cells = <0>;
+bindings = <&kp q &kp u>;
+};
