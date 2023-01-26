@@ -34,14 +34,14 @@
         label = "qu";
         #binding-cells = <0>;
         tapping-term-ms = <175>;
-        bindings = <&kp u>, <&macro_qu>;
+        bindings = <&kp U>, <&macro_qu>;
     };
     jz: JZ {
         compatible = "zmk,behavior-tap-dance";
         label = "jz";
         #binding-cells = <0>;
         tapping-term-ms = <175>;
-        bindings = <&kp j>, <&kp z>;
+        bindings = <&kp J>, <&kp Z>;
     };
   };
 
