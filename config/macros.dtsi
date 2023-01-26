@@ -14,5 +14,5 @@ macro_qu: macro_qu{
 compatible = "zmk,behavior-macro";
 label = "macro_qu";
 #binding-cells = <0>;
-bindings = <&kp q &kp u>;
+bindings = <&kp q>, <&kp u>;
 };
