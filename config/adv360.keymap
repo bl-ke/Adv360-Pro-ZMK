@@ -28,19 +28,25 @@
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
-    
+
+    macro_qu: macro_qu{
+        compatible = "zmk,behavior-macro";
+        label = "macro_qu";
+        #binding-cells = <0>;
+        bindings = <&kp Q &kp U>;
+    };
     qu: QU {
         compatible = "zmk,behavior-tap-dance";
         label = "qu";
         #binding-cells = <0>;
-        tapping-term-ms = <175>;
+        tapping-term-ms = <150>;
         bindings = <&kp U>, <&macro_qu>;
     };
     jz: JZ {
         compatible = "zmk,behavior-tap-dance";
         label = "jz";
         #binding-cells = <0>;
-        tapping-term-ms = <175>;
+        tapping-term-ms = <150>;
         bindings = <&kp J>, <&kp Z>;
     };
   };
