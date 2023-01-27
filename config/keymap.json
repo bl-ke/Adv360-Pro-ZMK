@@ -11,11 +11,11 @@
   ],
   "layers": [
     [
-        "&none",  "&none",  "&none",  "&none",  "&none",     "&none",               "&none",                                                                                                   "&none",     "&none",  "&none",  "&none",  "&none",           "&none",  "&none",
-        "&none",  "&kp Y",  "&kp C",  "&kp L",  "&kp M", "&kp COLON",               "&none",                                                                                                   "&none",   "&kp ESC",  "&kp F",  "&kp K",  "&kp G",           "&kp J",  "&none",
-        "&none",  "&kp I",  "&kp S",  "&kp R",  "&kp T", "&kp MINUS",               "&none",              "&none", "&kp C_MUTE",                       "&kp C_VOL_DN",        "&kp C_VOL_UP",  "&none", "&kp COMMA",  "&kp N",  "&kp A",  "&kp U",           "&kp O",  "&none",
-        "&none",  "&kp X",  "&kp V",  "&kp W",  "&kp D", "&kp QMARK",               "&none",              "&none",      "&none",  "&none",  "&none",          "&none",               "&none",  "&none",   "&kp DOT",  "&kp H",  "&kp P",  "&kp B", "&macro_esc_tog3",  "&none",
-        "&none",  "&none",  "&none",  "&none",  "&none",                        "&kp SPACE", "&mt LEFT_SHIFT TAB",      "&to 1",                     "&mt RCTRL BSPC", "&mt RIGHT_ALT ENTER",  "&kp E",               "&none",  "&none",  "&none",           "&none",  "&none"
+        "&none",  "&none",  "&none",  "&none",  "&none",     "&none",                 "&none",                                                                                           "&none",     "&none",  "&none",  "&none",  "&none",           "&none",  "&none",
+        "&none",  "&kp L",  "&kp Y",  "&kp C",  "&kp M", "&kp COLON",                 "&none",                                                                                           "&none",   "&kp ESC",  "&kp F",  "&kp B",  "&kp G",           "&kp J",  "&none",
+        "&none",  "&kp I",  "&kp S",  "&kp R",  "&kp T", "&kp MINUS",                 "&none",     "&none", "&kp C_MUTE",                        "&kp C_VOL_DN",       "&kp C_VOL_UP",   "&none", "&kp COMMA",  "&kp N",  "&kp A",  "&kp U",           "&kp O",  "&none",
+        "&none",  "&kp X",  "&kp V",  "&kp W",  "&kp D", "&kp QMARK",                 "&none",     "&none",      "&none",  "&none",  "&none",           "&none",              "&none",   "&none",   "&kp DOT",  "&kp H",  "&kp P",  "&kp K", "&macro_esc_tog3",  "&none",
+        "&none",  "&none",  "&none",  "&none",  "&none",                        "&lt 1 SPACE", "&lt 2 TAB", "&caps_word",                     "&mt RCTRL ENTER", "&mt RIGHT_ALT BSPC", "&lt 2 E",               "&none",  "&none",  "&none",           "&none",  "&none"
     ], [
         "&none",     "&none",            "&none",             "&none",     "&none",       "&none",            "&none",                                                              "&none",            "&none",    "&none",    "&none",    "&none",           "&none",  "&none",
         "&none",     "&none",           "&kp AT",         "&kp POUND", "&kp EQUAL", "&kp PERCENT",            "&none",                                                              "&none",        "&kp CARET",   "&kp LT",   "&kp GT", "&kp PIPE",       "&kp EQUAL",  "&none",

@@ -1,14 +1,12 @@
-
+macro_home: macro_home{
+compatible = "zmk,behavior-macro";
+label = "macro_home";
+#binding-cells = <0>;
+bindings = <&kp TILDE>, <&kp FSLH>;
+};
 macro_esc_tog3: macro_esc_tog3{
 compatible = "zmk,behavior-macro";
 label = "macro_esc_tog3";
 #binding-cells = <0>;
 bindings = <&kp ESC &to 3>;
-};
-
-macro_qu: macro_qu{
-compatible = "zmk,behavior-macro";
-label = "macro_qu";
-#binding-cells = <0>;
-bindings = <&kp Q &kp U>;
 };
