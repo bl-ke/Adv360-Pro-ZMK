@@ -53,10 +53,10 @@
         default_layer {
             bindings = <
   &none   &none   &none   &none   &none   &none                &to_home                                                                                  &kp TILDE      &none   &none    &none   &none            &none   &none
-  &none   &kp Q   &kp W   &kp F   &kp P   &kp B                &none                                                                                  &none  &kp QMARK   &kp L    &kp U   &kp Y            &kp J   &none
-  &none   &kp A   &kp R   &kp S   &kp T   &kp G                &none        &none  &kp C_MUTE                     &kp C_VOL_DN  &kp C_VOL_UP          &none  &kp COMMA   &kp N    &kp E   &kp I            &kp O   &none
-  &none   &kp Z   &kp X   &kp C   &kp D   &kp V                &none        &none       &none   &none   &none            &none         &none          &none      &kp K   &kp H  &kp DOT   &kp M  &macro_esc_tog3   &none
-  &none   &none   &none   &none   &none                    &kp SPACE  &hm LSHFT ESC  &caps_word                  &mt RCTRL ENTER         &alt_to RALT 1  &kp BACKSPACE              &none    &none   &none            &none   &none
+  &none   &kp Q   &kp W   &kp F   &kp P   &kp B                &none                                                                                  &none  &kp J    &kp L    &kp U   &kp Y            &kp QMARK   &none
+  &none   &kp A   &kp R   &kp S   &kp T   &kp G                &none        &none  &kp C_MUTE                     &kp C_VOL_DN  &kp C_VOL_UP          &none  &kp M   &kp N    &kp E   &kp I            &kp O   &none
+  &none   &kp Z   &kp X   &kp C   &kp D   &kp V                &none        &none       &none   &none   &none            &none         &none          &none      &kp K   &kp H  &kp DOT   &kp COMMA  &macro_esc_tog3   &none
+  &none   &none   &none   &none   &none                    &kp SPACE  &hm LSHFT ESC  &kp RIGHT                  &mt RCTRL ENTER         &alt_to RALT 1  &kp BACKSPACE              &none    &none   &none            &none   &none
             >;
         };
 
