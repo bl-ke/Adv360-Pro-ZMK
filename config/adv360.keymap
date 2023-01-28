@@ -35,7 +35,7 @@
         #binding-cells = <0>;
         bindings = <&kp TILDE &kp FSLH>;
     };
-    alt_to1: hold_alt_to1 {
+    alt_to: hold_alt_to1 {
         compatible = "zmk,behavior-hold-tap";
         label = "alt_to1";
         #binding-cells = <2>;
@@ -55,7 +55,7 @@
   &none   &kp Q   &kp W   &kp F   &kp P   &kp B                &none                                                                                  &none  &kp QMARK   &kp L    &kp U   &kp Y            &kp J   &none
   &none   &kp A   &kp R   &kp S   &kp T   &kp G                &none        &none  &kp C_MUTE                     &kp C_VOL_DN  &kp C_VOL_UP          &none  &kp COMMA   &kp N    &kp E   &kp I            &kp O   &none
   &none   &kp Z   &kp X   &kp C   &kp D   &kp V                &none        &none       &none   &none   &none            &none         &none          &none      &kp K   &kp H  &kp DOT   &kp M  &macro_esc_tog3   &none
-  &none   &none   &none   &none   &none                    &kp SPACE  &key_repeat  &caps_word                  &mt RCTRL ENTER         &alt_to1 RALT 1  &kp BACKSPACE              &none    &none   &none            &none   &none
+  &none   &none   &none   &none   &none                    &kp SPACE  &key_repeat  &caps_word                  &mt RCTRL ENTER         &alt_to RALT 1  &kp BACKSPACE              &none    &none   &none            &none   &none
             >;
         };
 
@@ -65,7 +65,7 @@
   &none      &none            &kp AT          &kp POUND  &kp EQUAL  &kp PERCENT                 &none                                                      &none         &kp CARET    &kp LT    &kp GT  &kp PIPE        &kp EQUAL   &none
   &none  &kp GRAVE  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp UNDER    &kp MINUS                 &none  &trans  &trans                  &trans  &trans      &none         &kp COLON  &kp LBRC  &kp RBRC  &kp SEMI        &kp ENTER   &none
   &none  &kp TILDE          &kp EXCL           &kp AMPS  &kp UNDER     &kp STAR                 &none   &none   &none   &none   &none   &none   &none      &none  &kp LEFT_BRACKET  &kp LPAR  &kp RPAR  &kp RBKT  &macro_esc_tog3   &none
-  &none      &none             &none              &none      &none                             &trans   &to 0  &trans                  &trans   &to 2     &trans                       &none     &none     &none            &none   &none
+  &none      &none             &none              &none      &none                             &trans   &to 0  &trans                  &trans   &alt_to RALT 2     &trans                       &none     &none     &none            &none   &none
             >;
         };
 
@@ -75,7 +75,7 @@
   &none     &none     &none     &none       &none   &none             &none                                                   &none  &kp DOLLAR  &kp NUMBER_7  &kp N8  &kp N9        &kp EQUAL   &none
   &none  &kp PLUS  &kp FSLH  &kp STAR  &kp PERIOD   &none             &none  &trans  &trans                  &trans  &trans   &none      &kp N0        &kp N1  &kp N2  &kp N3        &kp MINUS   &none
   &none     &none     &none     &none       &none   &none             &none   &none  &trans   &none   &none  &trans   &none   &none      &kp N0        &kp N4  &kp N5  &kp N6  &macro_esc_tog3   &none
-  &none     &none     &none     &none       &none                    &trans   &to 0  &trans                  &trans   &to 1  &trans                     &none   &none   &none            &none   &none
+  &none     &none     &none     &none       &none                    &trans   &to 0  &trans                  &trans   &alt_to RALT 1  &trans                     &none   &none   &none            &none   &none
             >;
         };
 
@@ -85,7 +85,7 @@
        &none   &none   &none   &kp B   &kp W      &none                  &none                                                        &none     &none  &kp HOME  &kp END      &none      &none        &none
        &none   &kp G   &kp Y   &kp D   &kp V  &kp LC(V)                  &none  &trans  &trans                  &trans  &trans        &none  &kp LEFT  &kp DOWN   &kp UP  &kp RIGHT  &kp ENTER        &none
        &none   &none   &none   &none   &none      &none                  &none   &none  &trans   &none   &none  &trans   &none        &none     &none     &none    &none      &none      &to 0        &none
- &bootloader   &none   &none   &none   &none                            &trans   &to 0  &trans                  &trans   &to 1       &trans               &none    &none      &none      &none  &bootloader
+ &bootloader   &none   &none   &none   &none                            &trans   &to 0  &trans                  &trans   &alt_to RALT 1       &trans               &none    &none      &none      &none  &bootloader
             >;
         };
 
