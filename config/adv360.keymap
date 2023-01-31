@@ -55,8 +55,8 @@
   &none   &none   &none   &none   &none   &none                &to_home                                                                                  &kp TILDE      &none   &none    &none   &none            &none   &none
   &none   &kp Q   &kp W   &kp F   &kp P   &kp B                &none                                                                                  &none  &kp J    &kp L    &kp U   &kp Y            &hm QMARK MINUS  &none
   &none   &kp A   &kp R   &kp S   &kp T   &kp G                &none        &none  &kp C_MUTE                     &kp C_VOL_DN  &kp C_VOL_UP          &none  &kp M   &kp N    &kp E   &kp I            &kp O   &none
-  &none   &kp Z   &kp X   &kp C   &kp D   &kp V                &none        &none       &none   &none   &none            &none         &none          &none      &kp K   &kp H  &kp COLON   &hm DOT COMMA  &macro_esc_tog3   &none
-  &none   &none   &none   &none   &none                    &hm TAB SPACE  &hm LSHFT ESC  &kp RIGHT                  &mt RCTRL ENTER         &alt_to RALT 1  &hm ENTER BACKSPACE              &none    &none   &none            &none   &none
+  &none   &kp Z   &kp X   &kp C   &kp D   &kp V                &none        &none       &none   &none   &none            &none         &none          &none      &kp K   &kp H  &kp COLON   &hm COMMA DOT   &to 3   &none
+  &none   &none   &none   &none   &none                    &hm TAB SPACE  &hm LSHFT ESC  &kp RIGHT                  &mt RCTRL ENTER         &alt_to RALT 1  &kp BACKSPACE              &none    &none   &none            &none   &none
             >;
         };
 
@@ -65,7 +65,7 @@
   &none      &none             &none              &none      &none        &none            &bl BL_OFF                                                  &bl BL_ON             &none     &none     &none     &none            &none   &none
   &none      &none            &kp AT          &kp POUND  &kp EQUAL  &kp PERCENT                 &none                                                      &none         &kp CARET    &kp LT    &kp GT  &kp PIPE        &kp EQUAL   &none
   &none  &kp GRAVE  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp UNDER    &kp MINUS                 &none  &trans  &trans                  &trans  &trans      &none         &kp COLON  &kp LBRC  &kp RBRC  &kp SEMI        &kp ENTER   &none
-  &none  &kp TILDE          &kp EXCL           &kp AMPS  &kp UNDER     &kp STAR                 &none   &none   &none   &none   &none   &none   &none      &none  &kp LEFT_BRACKET  &kp LPAR  &kp RPAR  &kp RBKT  &macro_esc_tog3   &none
+  &none  &kp TILDE          &kp EXCL           &kp AMPS  &kp UNDER     &kp STAR                 &none   &none   &none   &none   &none   &none   &none      &none  &kp LEFT_BRACKET  &kp LPAR  &kp RPAR  &kp RBKT  &to 3   &none
   &none      &none             &none              &none      &none                             &trans   &alt_to LSHFT 0  &trans                  &trans   &alt_to RALT 2     &trans                       &none     &none     &none            &none   &none
             >;
         };
@@ -75,7 +75,7 @@
   &none     &none     &none     &none       &none   &none             &none                                                   &none       &none         &none  &trans   &none            &none   &none
   &none     &none     &none     &none       &none   &none             &none                                                   &none  &kp DOLLAR  &kp NUMBER_7  &kp N8  &kp N9        &kp EQUAL   &none
   &none  &kp PLUS  &kp FSLH  &kp STAR  &kp PERIOD   &none             &none  &trans  &trans                  &trans  &trans   &none      &kp N0        &kp N1  &kp N2  &kp N3        &kp MINUS   &none
-  &none     &none     &none     &none       &none   &none             &none   &none  &trans   &none   &none  &trans   &none   &none      &kp N0        &kp N4  &kp N5  &kp N6  &macro_esc_tog3   &none
+  &none     &none     &none     &none       &none   &none             &none   &none  &trans   &none   &none  &trans   &none   &none      &kp N0        &kp N4  &kp N5  &kp N6  &to 3   &none
   &none     &none     &none     &none       &none                    &trans   &alt_to LSHFT 0  &trans                  &trans   &alt_to RALT 1  &trans                     &none   &none   &none            &none   &none
             >;
         };
