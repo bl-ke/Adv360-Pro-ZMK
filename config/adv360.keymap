@@ -83,7 +83,7 @@
         layer_navigation {
             bindings = <
        &none   &none   &none   &none   &none      &none            &bootloader                                                  &bootloader     &none     &none    &none      &none      &none        &none
-       &none   &none   &none   &kp B   &kp W      &none                  &none                                                        &none     &none  &kp HOME  &kp END      &none      &ENTER       &none
+       &none   &none   &none   &kp B   &kp W      &none                  &none                                                        &none     &none  &kp HOME  &kp END      &none      &kp ENTER       &none
        &none   &kp G   &kp Y   &kp D   &kp V  &kp LC(V)                  &none  &trans  &trans                  &trans  &trans        &none  &kp LEFT  &kp DOWN   &kp UP  &kp RIGHT      &kp &none        &none
        &none   &none   &none   &none   &none      &none                  &none   &none  &trans   &none   &none  &trans   &none        &none     &none     &none    &none      &none      &none       &none
        &none   &none   &none   &none   &none                            &trans   &trans &trans                  &trans &trans       &trans               &none    &none      &none      &none  &none
