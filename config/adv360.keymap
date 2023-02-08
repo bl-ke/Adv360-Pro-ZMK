@@ -47,7 +47,11 @@
         compatible = "zmk,behavior-macro";
         label = "bspc_del";
         #binding-cells = <0>;
-        bindings = <&mt RALT &bspd>;
+        bindings = 
+           <&macro_press &kp RALT>
+         , <&macro_tap &bspd>
+         , <&macro_release &kp RALT>;
+
     };
     hto: hold_hto {
         compatible = "zmk,behavior-hold-tap";
