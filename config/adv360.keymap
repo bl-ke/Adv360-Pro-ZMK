@@ -27,11 +27,11 @@
         bindings = <&kp BSLH>, <&kp QMARK>;
         mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
     };
-    bsd: bspc_del {
+    smod: shift_mod {
         compatible = "zmk,behavior-mod-morph";
-        label = "bspc_del";
+        label = "shift_mod";
         #binding-cells = <0>;
-        bindings = <&kp BSPC>, <&kp DEL>;
+        bindings = <&kp>, <&kp>;
         mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
     };
     hm: homerow_mods {
@@ -50,7 +50,7 @@
         tapping-term-ms = <175>;
         quick_tap_ms = <150>;
         flavor = "tap-preferred";
-        bindings = <&kp RALT>, <&bsd>;
+        bindings = <&kp RALT>, <&smod BSPC DEL>;
     };
     hto: hold_hto {
         compatible = "zmk,behavior-hold-tap";
