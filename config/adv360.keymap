@@ -41,7 +41,7 @@
         tapping-term-ms = <175>;
         quick_tap_ms = <150>;
         flavor = "tap-preferred";
-        bindings = <&kp RALT>, <&bspd>;
+        bindings = <&kp RALT>, <&kp bspd>;
     };
     hto: hold_hto {
         compatible = "zmk,behavior-hold-tap";
