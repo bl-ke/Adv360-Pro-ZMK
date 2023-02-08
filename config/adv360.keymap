@@ -32,7 +32,7 @@
         label = "bspc_del";
         #binding-cells = <0>;
         bindings = <&kp BSPC>, <&kp DEL>;
-        mods = <(MOD_LSFT|MOD_RSFT)>;
+        mods = <(MOD_LCTL|MOD_RCTL)>;
     };
     zzz: zzzzzz {
         compatible = "zmk,behavior-hold-tap";
