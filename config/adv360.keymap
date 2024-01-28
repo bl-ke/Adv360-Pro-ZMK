@@ -37,11 +37,11 @@
 
         default_layer {
             bindings = <
-  &none   &none   &none   &none   &none   &none            &bootloader                                                                                                &bootloader   &none   &none      &none    &none      &none   &none
-  &none   &kp Q   &kp W   &kp F   &kp P   &kp B                  &none                                                                                                      &none   &kp J   &kp L      &kp U    &kp Y  &kp COLON   &none
-  &none   &kp A   &kp R   &kp S   &kp T   &kp G                  &none  &kp K_VOLUME_DOWN  &kp K_VOLUME_UP                             &kp K_PREV         &kp K_NEXT        &none   &kp M   &kp N      &kp E    &kp I      &kp O   &none
-  &none   &kp Z   &kp X   &kp C   &kp D   &kp V                                                 &kp K_MUTE                              &kp PG_UP                                   &kp K   &kp H  &kp COMMA  &kp DOT   &kp FSLH   &none
-  &none   &none   &none   &none   &none                      &lt 2 TAB        &lt 1 SPACE    &mt LCTRL ESC                  &mt RIGHT_SHIFT ENTER  &mt RIGHT_ALT DEL        &mo 3           &none      &none    &none      &none   &none
+  &none   &none   &none   &none   &none   &none            &bootloader                                                                                                    &bootloader   &none   &none      &none    &none      &none   &none
+  &none   &kp Q   &kp W   &kp F   &kp P   &kp B                  &none                                                                                                          &none   &kp J   &kp L      &kp U    &kp Y  &kp COLON   &none
+  &none   &kp A   &kp R   &kp S   &kp T   &kp G                  &none  &kp C_VOLUME_DOWN   &kp C_VOL_UP                             &kp C_PREV               &kp C_NEXT        &none   &kp M   &kp N      &kp E    &kp I      &kp O   &none
+  &none   &kp Z   &kp X   &kp C   &kp D   &kp V                                               &kp C_MUTE                       &kp C_PLAY_PAUSE                                         &kp K   &kp H  &kp COMMA  &kp DOT   &kp FSLH   &none
+  &none   &none   &none   &none   &none                      &lt 2 TAB        &lt 1 SPACE  &mt LCTRL ESC                  &mt RIGHT_SHIFT ENTER  &mt RIGHT_ALT BACKSPACE        &mo 3           &none      &none    &none      &none   &none
             >;
         };
 
